@@ -4,11 +4,16 @@ import "fmt"
 
 func main() {
 	// Define map - Syntax: map[key]value
-	emails := make(map[string]string)
+	// emails := make(map[string]string)
 
 	// Assign kv
-	emails["Bob"] = "bob@gmail.com"
-	emails["Sharon"] = "sharon@gmail.com"
+	// emails["Bob"] = "bob@gmail.com"
+	// emails["Sharon"] = "sharon@gmail.com"
+	// emails["Mike"] = "mike@gmail.com"
+
+	// Declare map and add kv
+	emails := map[string]string{"Bob": "bob@gmail.com", "Sharon": "sharon@gmail.com"}
+
 	emails["Mike"] = "mike@gmail.com"
 
 	fmt.Println(emails)
